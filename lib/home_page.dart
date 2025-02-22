@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                           'Pune',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28,
+                            fontSize: 18,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                     _buildSearchBar(),
                     const SizedBox(height: 12),
                     const Text(
-                      'Find a Doctor for your Health Problem',
+                      'Find a Doctor!',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,
